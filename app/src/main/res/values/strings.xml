@@ -1,0 +1,13 @@
+<resources>
+
+    <string name="app_name">RegistrationForm</string>
+    <string name="user_name">User Name</string>
+    <string name="emile">Emile</string>
+    <string name="password">Password</string>
+    <string name="reenter_password">reenter_password</string>
+    <string name="birthday_date">Birthday Date</string>
+    <string name="famale">Famale</string>
+    <string name="male">Male</string>
+    <string name="registration">Registration</string>
+    <string name="welcomeMasseg" />
+</resources>
