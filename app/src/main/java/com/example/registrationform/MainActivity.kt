@@ -19,31 +19,30 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun inputUser() {
-        val name = binding.nameInput.text
-        val emile = binding.emailAddress.text
-        val pass = binding.password.text.toString()
-        val pass2=binding.reEnterPass.text.toString()
-        val date = binding.birthdayDate.text.toString()
+        val name = binding.nameInput.editText?.text.toString()
+        val emile = binding.emailAddress.editText?.text.toString()
+        val pass = binding.password.editText?.text.toString()
+        val pass2=binding.reEnterPass.editText?.text.toString()
+        val date = binding.birthdayDate.editText?.text.toString()
         val maleIs = binding.male.isChecked
         val femals = binding.bottomFemal.isChecked
         val textmasseg = binding.textMassege
 
 
 
-    if (binding.nameInput.text.toString().isEmpty() && emile.toString().isEmpty() && binding.password.text.toString().isEmpty() && binding.reEnterPass.text.toString().isEmpty() && date.isEmpty())
+    if (name.isNotEmpty() && emile.isNotEmpty() && pass.isNotEmpty() && pass2.isNotEmpty() && date.isNotEmpty())
         {
-           textmasseg.text = "You shold complate your input"
-        }else if (pass==pass2){
-            binding.textMassege.text="your name is $name your mail is $emile you last number of password is ${pass.last()}"
+
+        if (pass==pass2){
+            binding.textMassege.text="your name is $name \n" +
+                    " your mail is $emile \n" +
+                    " you last number of password is ${pass.last()}"
         }else textmasseg.text="password faild match"
 
-
-
-
-
-
+    }else{
+        textmasseg.text = "You shold complate your input"
     }
-
+    }
 
 
 
