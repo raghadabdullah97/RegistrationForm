@@ -200,7 +200,7 @@
 
     <ImageView
         android:id="@+id/icon"
-        android:layout_width="10dp"
+        android:layout_width="22dp"
         android:layout_height="43dp"
         android:importantForAccessibility="no"
         app:layout_constraintBottom_toTopOf="@+id/email_address"
