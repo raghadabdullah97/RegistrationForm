@@ -36,7 +36,9 @@ class MainActivity : AppCompatActivity() {
         if (pass==pass2){
             binding.textMassege.text="your name is $name \n" +
                     " your mail is $emile \n" +
-                    " you last number of password is ${pass.last()}"
+                    " your password is $pass \n" +
+                    "your re-password $pass2 \n" +
+                    "your birthday $date"
         }else textmasseg.text="password faild match"
 
     }else{

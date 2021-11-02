@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+
+    <string name="app_name"> نموذج تسجيل </string>
+    <string name="user_name">اسم المستخدم </string>
+    <string name="emile">الإيميل</string>
+    <string name="password">الرقم السري </string>
+    <string name="reenter_password">إعادة الرقم السري </string>
+    <string name="birthday_date">تاريخ الميلاد </string>
+    <string name="famale">انثى </string>
+    <string name="male">ذكر </string>
+    <string name="registration">تسجيل </string>
+    <string name="welcomeMasseg" />
+</resources>
